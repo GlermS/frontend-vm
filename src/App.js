@@ -79,7 +79,7 @@ function App() {
 
 export default App;
 
-async function getfilename(plantName){
-  const resp = await axios.get('http://192.168.1.3/weather_station/?pname='+plantName+'&date=2022-01-01')
-  return resp.data
-}
+// async function getfilename(plantName){
+//   const resp = await axios.get('http://192.168.1.3/weather_station/?pname='+plantName+'&date=2022-01-01')
+//   return resp.data
+// }
