@@ -36,7 +36,7 @@ function App() {
   if (filename != null) {
     dbuton = <a className='download-button' href={'http://192.168.1.3/results/download/'+filename+'.csv'}>Download</a>
     frame = <>
-      <iframe className='desktop' src={process.env.PUBLIC_URL + '/results/'+filename1+'.html'} allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+      <iframe className='desktop' title={filename} src={process.env.PUBLIC_URL + '/results/'+filename1+'.html'} allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
       <a className='mobile' href={process.env.PUBLIC_URL + '/results/'+filename1+'.html'}>Ver gráfico</a>
     </>
   }else{
