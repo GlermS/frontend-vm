@@ -23,13 +23,13 @@ function App() {
   
   const handleChangeLoad = (event) =>{
     event.preventDefault()
-    
-    getfilename(plant).then(
-      (res) =>{
-        console.log(res)
-        setFilename(res)
-      }
-    )
+    setFilename(filename1)
+    // getfilename(plant).then(
+    //   (res) =>{
+    //     console.log(res)
+    //     setFilename(res)
+    //   }
+    // )
       }
 
   var frame, dbuton;    
