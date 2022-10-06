@@ -68,7 +68,7 @@ function App() {
         </div>
      
         <div id='footer'>
-         <img src={process.env.PUBLIC_URL + '/horizontal_logo.png'}  id='footer_logo'/>
+         <img alt='logo' src={process.env.PUBLIC_URL + '/horizontal_logo.png'}  id='footer_logo'/>
         </div> 
       </div>
       
