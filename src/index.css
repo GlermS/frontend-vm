@@ -1,8 +1,10 @@
 :root{
   --grey: #595959;
+  --primary-color: #f25c05;
+  --pageBackgroundColor: #fafafa;
+  --nr-dashboard-groupTextColor: #7f7f7f;
   --white: #ffffff;
 }
-
 
 html{
   width: 100%;
@@ -13,9 +15,8 @@ html{
 body {
   
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat'!important;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
@@ -46,20 +47,23 @@ body {
   width: 100%;
   /* min-width: 500px; */
 }
+
 #sidebar{
+  font-family: 'Montserrat'!important;
   width: 20rem;
   background-color: var(--grey);
-  color: white; 
+  color: var(--white); 
   font-size: 1.2rem;
 }
 
 #sidebar button{
+  font-family: 'Montserrat'!important;
   margin: 0.5rem;
   background-color: transparent;
   border: none;
-  font-weight: bolder;
+  font-weight: bold;
   align-items: center;
-  color: white;
+  color: var(--white);
   height: 3rem;
 }
 
@@ -70,7 +74,7 @@ body {
 }
 
 #sidebar a{
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -91,7 +95,8 @@ body {
 }
 
 header select{
-  background-color: white;
+  font-family: 'Montserrat'!important;
+  background-color: var(--white);
   padding: 8px 16px;
   border: 1px solid transparent;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
@@ -99,7 +104,9 @@ header select{
 }
 
 header button{
-  background-color: orange;
+  font-family: 'Montserrat'!important;
+  background-color: var(--primary-color);
+  color: var(--white);
   padding: 8px 16px;
   border: 1px solid transparent;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
