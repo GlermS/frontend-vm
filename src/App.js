@@ -1,6 +1,7 @@
 // import axios from 'axios';
 import { useState } from 'react';
 import './App.css';
+import {Menu} from './components/menu'
 
 
 
@@ -47,14 +48,7 @@ function App() {
   console.log(plant, filename)
   return (
     <div className="App">
-      <div id='sidebar'>
-        <ul id='sidebar-options'>
-          <li><a href='/'>Plant Performance</a></li>
-          <li><a href='/'>Inverter Performance</a></li>
-          <li><a href='/'>Forecasting</a></li>
-        </ul>
-        
-      </div>
+      <Menu></Menu>
       <div id = 'main'>
         <div id='content'>
           <header>

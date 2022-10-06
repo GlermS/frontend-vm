@@ -50,12 +50,23 @@ body {
   width: 20rem;
   background-color: var(--grey);
   color: white; 
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+
+#sidebar button{
+  margin: 0.5rem;
+  background-color: transparent;
+  border: none;
+  font-weight: bolder;
+  align-items: center;
+  color: white;
+  height: 3rem;
 }
 
 #sidebar ul{
   list-style: none;
   text-align: left;
+  flex-direction: column;
 }
 
 #sidebar a{
@@ -135,14 +146,16 @@ header button{
   .App {
     flex-direction: column;
   }
-  #content{
-    padding: 1rem;
+
+  #content a{
+    margin:1rem;
   }
+
   #sidebar{
-    height: 3rem;
+    min-height: 3rem;
     width: 100%;
+    display: flex;
+    align-items: flex-start;
   }
-  #sidebar-options{
-    display: none;
-  }
+ 
 }
